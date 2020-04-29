@@ -1,0 +1,511 @@
+/* ========= ALL =========== */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    background-color: #29292c;
+    margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/frontLeoBG.jpg) no-repeat top center;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul, li, h1, h2, h3, h4, h5, p, div {
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+.btn {
+    text-transform: uppercase;
+    background: #dfb56d;
+    padding: 17px 39px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* ========= /ALL =========== */
+
+/* ========= HEADER =========== */
+
+.header {
+    margin: 31px 0 190px;
+}
+
+.logo__img,
+.site-name,
+.menu__list,
+.contacts,
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    margin-right: 92px;
+}
+
+.logo__img {
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+.site-name_yellow {
+    color: #dfb56d;
+}
+
+.menu__list {
+    font-size: 14px;
+}
+
+.menu__item {
+    display: inline;
+    margin-right: 52px; 
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    transition: all 0.3s ease;
+}
+
+.menu__item:hover .menu__link{
+    color: #dfb56d;
+}
+
+.contacts {
+    position: relative;
+    left: 423px;
+    font-style: normal;
+}
+
+.contacts__phone {
+    font-size: 26px;
+}
+
+.contacts__schedule-text {
+    position: absolute;
+    right: 0;
+    font-size: 13px;
+    color: #dfb56d;
+    text-decoration: underline;
+}
+
+.contacts:hover .contacts__schedule{
+    opacity: 1;
+}
+
+.contacts__schedule {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 157px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 17px 17px;
+    color: #1e1f20;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.contacts__schedule::before {
+    content: ''; 
+    position: absolute;
+    top: -26px;
+    right: 38px;
+    border: 13px solid transparent; 
+    border-bottom: 13px solid rgba(255, 255, 255, 0.8);
+}
+
+.contacts__time {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.contacts__time_bold {
+    font-weight: 700;
+}
+
+
+/* =========== SLOGAN ============= */
+
+.slogan {
+    margin-bottom: 166px;
+}
+
+.slogan__title {
+    width: 400px;
+    line-height: 1.23em;
+}
+
+.slogan__subtitle {
+    color: #dfb56d;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.slogan__btn {
+    margin-top: 38px;
+    box-shadow: 0px 0px 40px 0px rgba(223, 181, 109, 0.15);
+}
+
+.slogan__btn:hover {
+    background-color: #d3a556;
+    box-shadow: 0px 0px 40px 0px rgba(223, 181, 109, 0.50);
+}
+
+/* =========== /SLOGAN ============= */
+
+/* =========== OFFER ============= */
+
+.offer {
+    margin-bottom: 130px;
+}
+
+.offer__title {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.cards__circle {
+    position: absolute;
+    top: -118px;
+    right: -95px;
+    width: 285px;
+    height: 285px;
+    background-color: #ffaaaa;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.cards__circle_gray {
+    background-color: #a5a5a4;
+}
+
+.cards__circle_blue {
+    background-color: #556180;
+}
+
+.cards__circle_green {
+    background-color: #978455;
+}
+
+.cards__card {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 363px;
+    height: 470px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 21px;
+    padding: 52px 30px 37px;
+}
+
+.cards__card:last-child {
+    margin-right: 0;
+}
+
+.cards__photo {
+    position: relative;
+    text-align: center;
+    margin-bottom: 69px;
+    z-index: 2;
+}
+
+.cards__photo-img {
+    max-width: 100%;
+}
+
+.cards__title {
+    color: #010001;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cards__info {
+    color: #010001;
+    font-weight: normal;
+}
+
+.cards__service {
+    display: inline-block;
+    width: 49%;
+}
+
+.cards__info-title {
+    font-size: 36px;
+}
+
+.cards__service-title_small {
+    font-size: 30px;
+}
+
+.cards__button {
+    text-align: center;
+}
+
+.cards__btn {
+    margin: 54px auto 0;
+    background: #202123;
+}
+
+.cards__btn:hover {
+    background: #dfb56d;
+}
+
+/* =========== /OFFER ============= */
+
+/* =========== NEWS AND PROMOTIONS ============== */
+
+.news {
+    margin-bottom: 153px;
+}
+
+.news__title {
+    margin-bottom: 50px;
+}
+
+.news__articles {
+    margin-bottom: 45px;
+}
+
+.news__articles-article {
+    width: 555px;
+    height: 390px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 25px;
+    padding: 250px 30px 0;
+    border-radius: 5px;
+}
+
+.news__articles-article:last-child {
+    margin-right: 0;
+}
+
+.news__articles-backgtound {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 40%;
+    z-index: 1;
+}
+
+.news__articles-date {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.news__articles-date,
+.news__articles-title,
+.news__articles-subtitle,
+.pagenator {
+    position: relative;
+    z-index: 2;
+}
+
+.news__articles-title {
+    margin-bottom: 4px;
+}
+
+.pagenator {
+    text-align: center;
+}
+
+.pagenator__display,
+.pagenator__list,
+.pagenator__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagenator__display {
+    margin-right: 24px;
+}
+
+.pagenator__item {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.pagenator__item:active {
+    border-radius: 50%;
+    background-color: rgba(53, 53, 56, 1);
+}
+
+.pagenator__link {
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+}
+
+.pagenator__link span {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+
+/* =========== /NEWS AND PROMOTIONS ============== */
+
+
+/* =========== ABOUT BANK =============== */
+
+.about {
+    position: relative;
+    margin-bottom: 164px;
+}
+
+.about__bg {
+    position: absolute;
+    top: -325px;
+    right: -389px;
+}
+
+.about__photo, .about__info {
+    position: relative;
+    z-index: 1;
+}
+
+.about__bg-img {
+    max-width: 100%;
+}
+
+.about__photo {
+    width: 488px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about__photo-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.about__title {
+    margin-bottom: 31px;
+}
+
+.about__info {
+    position: absolute;
+    top: 105px;
+    right: 0;
+    width: 780px;
+    height: 454px;
+    padding: 69px 98px;
+    margin-bottom: 40px;
+    background-color: #202123;
+}
+
+.about__text {
+    margin-bottom: 44px;
+    line-height: 1.69em;
+}
+
+.about__btn:hover {
+    background-color: #d3a556;
+}
+
+/* =========== /ABOUT BANK =============== */
+
+
+/* =========== FOOTER =============== */
+
+.footer::before {
+    display: block;
+    content: "";
+    background-color: #353538;
+    width: 1140px;
+    margin: 0 auto 52px;
+    height: 1px;
+}
+
+.footer {
+    padding-bottom: 58px;
+}
+
+.social {
+    position: absolute;
+    right: 265px;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.social__item {
+    display: inline-block;
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.social__link:hover {
+    color: #7d7d7d;
+}
+
+.social__link {
+    color: #454545;
+    transition: all 0.3s ease;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__img {
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.contacts__subscript {
+    text-align: right;
+    font-size: 11px;
+    color: #999999;
+}
+
+/* =========== /FOOTER =============== */

@@ -39,10 +39,6 @@ a {
     color: inherit;
 }
 
-h2 {
-    font-size: 48px;
-}
-
 h3 {
     font-size: 36px;
 }
@@ -66,7 +62,7 @@ h5 {
 /* ========= HEADER =========== */
 
 .header {
-    margin: 31px 0 190px;
+    margin: 31px 0 196px;
 }
 
 .logo__img,
@@ -79,12 +75,16 @@ h5 {
 }
 
 .logo {
-    margin-right: 92px;
+    margin-right: 87px;
 }
 
 .logo__img {
     margin-right: 5px;
     max-width: 100%;
+}
+
+.site-name {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .site-name_yellow {
@@ -113,8 +113,10 @@ h5 {
 }
 
 .contacts {
-    position: relative;
-    left: 423px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
     font-style: normal;
     text-align: right;
 }
@@ -143,16 +145,17 @@ h5 {
 .slogan__title {
     width: 400px;
     line-height: 1.23em;
+    margin-bottom: 19px;
+    font-size: 48px;
 }
 
 .slogan__subtitle {
     color: #dfb56d;
     font-size: 18px;
-    margin-top: 25px;
+    margin-bottom: 44px;
 }
 
 .slogan__btn {
-    margin-top: 38px;
     box-shadow: 0px 0px 40px 0px rgba(223, 181, 109, 0.15);
 }
 
@@ -233,6 +236,7 @@ h5 {
 .cards__info {
     color: #010001;
     font-weight: normal;
+    margin-bottom: 48px;
 }
 
 .cards__service {
@@ -253,7 +257,6 @@ h5 {
 }
 
 .cards__btn {
-    margin: 54px auto 0;
     background: #202123;
 }
 
@@ -302,7 +305,6 @@ h5 {
 
 .news__articles-date {
     font-size: 14px;
-    text-transform: uppercase;
     margin-bottom: 13px;
 }
 
@@ -342,8 +344,6 @@ h5 {
 
 .pagenator__item {
     position: relative;
-    width: 32px;
-    height: 32px;
 }
 
 .pagenator__link {
@@ -380,6 +380,7 @@ h5 {
 
 .about__photo, .about__info {
     position: relative;
+    border-radius: 5px;
     z-index: 1;
 }
 
@@ -411,12 +412,11 @@ h5 {
     width: 780px;
     height: 454px;
     padding: 69px 98px;
-    margin-bottom: 40px;
     background-color: #202123;
 }
 
 .about__text {
-    margin-bottom: 44px;
+    margin-bottom: 38px;
     line-height: 1.69em;
 }
 
@@ -434,7 +434,7 @@ h5 {
     content: "";
     background-color: #353538;
     width: 1140px;
-    margin: 0 auto 52px;
+    margin: 0 auto 61px;
     height: 1px;
 }
 

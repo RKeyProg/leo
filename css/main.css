@@ -300,6 +300,7 @@ h5 {
     top: 0;
     opacity: 40%;
     z-index: 1;
+    object-fit: cover;
 }
 
 .news__articles-date {

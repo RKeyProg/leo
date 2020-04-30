@@ -1,4 +1,7 @@
 /* ========= ALL =========== */
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -7,7 +10,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #fff;
-    background-color: #29292c;
+    background: #29292c;
     margin: 0;
 	padding: 0;
 }
@@ -28,13 +31,12 @@ ul, li, h1, h2, h3, h4, h5, p, div {
     display: block;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 a {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: inherit;
 }
 
 h2 {
@@ -114,6 +116,7 @@ h5 {
     position: relative;
     left: 423px;
     font-style: normal;
+    text-align: right;
 }
 
 .contacts__phone {
@@ -121,47 +124,13 @@ h5 {
 }
 
 .contacts__schedule-text {
-    position: absolute;
-    right: 0;
     font-size: 13px;
     color: #dfb56d;
     text-decoration: underline;
 }
 
-.contacts:hover .contacts__schedule{
-    opacity: 1;
-}
-
-.contacts__schedule {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 157px;
-    height: 70px;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 17px 17px;
-    color: #1e1f20;
-    opacity: 0;
-    transition: all 0.3s ease;
-}
-
-.contacts__schedule::before {
-    content: ''; 
-    position: absolute;
-    top: -26px;
-    right: 38px;
-    border: 13px solid transparent; 
-    border-bottom: 13px solid rgba(255, 255, 255, 0.8);
-}
-
-.contacts__time {
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.contacts__time_bold {
-    font-weight: 700;
+.contacts__schedule-text:hover {
+    cursor: pointer;
 }
 
 
@@ -364,18 +333,21 @@ h5 {
     margin-right: 24px;
 }
 
+.pagenator__item_active, .pagenator__item:hover{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #353538;
+}
+
 .pagenator__item {
     position: relative;
     width: 32px;
     height: 32px;
 }
 
-.pagenator__item:active {
-    border-radius: 50%;
-    background-color: rgba(53, 53, 56, 1);
-}
-
 .pagenator__link {
+    line-height: 32px;
     font-weight: bold;
     width: 32px;
     height: 32px;
@@ -481,25 +453,50 @@ h5 {
 .social__item {
     display: inline-block;
     font-size: 36px;
-    margin-right: 10px;
-}
-
-.social__link:hover {
-    color: #7d7d7d;
-}
-
-.social__link {
-    color: #454545;
-    transition: all 0.3s ease;
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
 }
 
 .social__item:last-child {
     margin-right: 0;
 }
 
-.social__img {
-    max-width: 100%;
-    background-color: #fff;
+.social__link {
+    width: 100%;
+    height: 100%;
+}
+
+.social__link-telegram {
+    background: url(../img/telegram.png);
+}
+
+.social__link-telegram:hover {
+    background: url(../img/telegram_active.png);
+}
+
+.social__link-vk {
+    background: url(../img/vk.png);
+}
+
+.social__link-vk:hover {
+    background: url(../img/vk_active.png);
+}
+
+.social__link-face {
+    background: url(../img/facebook.png);
+}
+
+.social__link-face:hover {
+    background: url(../img/facebook_active.png);
+}
+
+.social__link-inst {
+    background: url(../img/instagram.png);
+}
+
+.social__link-inst:hover {
+    background: url(../img/instagram_active.png);
 }
 
 .contacts__subscript {

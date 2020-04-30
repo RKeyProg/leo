@@ -281,7 +281,7 @@ h5 {
 
 .news__articles-article {
     width: 555px;
-    height: 390px;
+    min-height: 390px;
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -335,21 +335,20 @@ h5 {
 }
 
 .pagenator__item_active, .pagenator__item:hover{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
     background: #353538;
 }
 
 .pagenator__item {
     position: relative;
+    background: transparent;
+    transition: all 0.3s ease;
+    border-radius: 50%;
 }
 
 .pagenator__link {
     line-height: 32px;
     font-weight: bold;
     width: 32px;
-    height: 32px;
 }
 
 .pagenator__link span {
@@ -389,7 +388,7 @@ h5 {
 
 .about__photo {
     width: 488px;
-    height: 500px;
+    min-height: 500px;
     position: relative;
     overflow: hidden;
 }
@@ -409,8 +408,7 @@ h5 {
     top: 105px;
     right: 0;
     width: 780px;
-    height: 454px;
-    padding: 69px 98px;
+    padding: 74px 98px;
     background-color: #202123;
 }
 
@@ -452,8 +450,6 @@ h5 {
 .social__item {
     display: inline-block;
     font-size: 36px;
-    width: 36px;
-    height: 36px;
     margin-right: 5px;
 }
 
@@ -462,8 +458,8 @@ h5 {
 }
 
 .social__link {
-    width: 100%;
-    height: 100%;
+    width: 36px;
+    height: 36px;
 }
 
 .social__link-telegram {

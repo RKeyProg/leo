@@ -16,7 +16,7 @@ body {
 }
 
 .main-page-wrapper {
-    background: url("../img/bg/lion-header.jpg") center top no-repeat, url("../img/bg/bottom-pic.png") right bottom 327px no-repeat;
+    background: url("../img/bg/lion-header.jpg") center top no-repeat, url("../img/bg/bottom-pic.png") right bottom 327px no-repeat;;
 }
 
 .wrapper {
@@ -294,7 +294,7 @@ h5 {
     margin-right: 0;
 }
 
-.news__articles-backgtound {
+.news__articles-background {
     position: absolute;
     right: 0;
     top: 0;

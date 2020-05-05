@@ -1,0 +1,30 @@
+.btn {
+    padding: 16px 39px;
+    background-color: #dfb56d;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d3a556;
+}
+
+.btn_shadow_add {
+    box-shadow:0px 0px 23px 0px rgba(223,181,109,0.35);
+}
+
+.btn_hover_add-shadow:hover {
+    box-shadow:0px 0px 23px 0px rgba(223,181,109,0.65);
+}
+
+.btn_bg_black {
+    background-color: #202123;
+}
+
+.btn_bg_black:hover {
+    background-color: #dfb56d;
+}

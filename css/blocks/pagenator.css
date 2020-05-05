@@ -1,0 +1,31 @@
+.pagenator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagenator__display {
+    margin-right: 15px;
+}
+
+.pagenator__list {
+    display: flex;
+}
+
+.pagenator__item {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.pagenator__link {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagenator__item_active, .pagenator__item:hover {
+    background-color: #353538;
+}

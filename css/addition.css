@@ -1,0 +1,29 @@
+.main-page-wrapper {
+    background: url("../img/bg/lion-header.jpg") center top no-repeat, url("../img/bg/bottom-pic.png") right bottom 327px no-repeat;;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.hero {
+    margin-bottom: 167px;
+}

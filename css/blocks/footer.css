@@ -1,0 +1,16 @@
+.footer {
+    padding: 25px 0;
+}
+
+.footer::before {
+    height: 1px;
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #353538;
+}
+
+.footer .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}

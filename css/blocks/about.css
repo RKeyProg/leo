@@ -1,0 +1,40 @@
+.about {
+    margin-bottom: 198px;
+}
+
+.about .container {
+    position: relative;
+}
+
+.about__photo {
+    position: relative;
+    width: 488px;
+    min-height: 500px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.about__photo-img {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__info {
+    width: 780px;
+    position: absolute;
+    top: 107px;
+    right: 0;
+    padding: 68px 96px;
+    background-color: #202123;
+    border-radius: 4px;
+}
+
+.about__title {
+    margin-bottom: 26px;
+}
+
+.about__text {
+    margin-bottom: 41px;
+    line-height: 1.7em;
+}

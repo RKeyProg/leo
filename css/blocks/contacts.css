@@ -1,0 +1,31 @@
+.contacts {
+    font-style: normal;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__phone {
+    font-size: 26px;
+}
+
+.contacts__subscript {
+    font-size: 13px;
+    margin-left: auto;
+}
+
+.contacts__subscript_underline_add {
+    text-decoration: underline;
+}
+
+.contacts__subscript_color_yellow {
+    color: #dfb56d;
+}
+
+.contacts__subscript_cursor_pointer:hover {
+    cursor: pointer;
+}
+
+.contacts__subscript_size_small {
+    font-size: 11px;
+}

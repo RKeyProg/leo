@@ -1,0 +1,18 @@
+.nav__list {
+    width: 100%;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 55px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__item:hover, .nav__item_active {
+    color: #dfb56d;
+}

@@ -21,10 +21,10 @@
     box-shadow:0px 0px 23px 0px rgba(223,181,109,0.65);
 }
 
-.btn_bg_black {
+.btn_bg_dark {
     background-color: #202123;
 }
 
-.btn_bg_black:hover {
+.btn_bg_dark:hover {
     background-color: #dfb56d;
 }

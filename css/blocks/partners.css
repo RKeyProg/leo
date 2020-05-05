@@ -1,0 +1,21 @@
+.partners {
+    background-color: #f4f5f5;
+    padding: 82px 0 115px;
+}
+
+.partners__title {
+    font-size: 48px;
+    color: #202123;
+    margin-bottom: 62px;
+}
+
+.partners__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 80px;
+}
+
+.partners__item:last-child {
+    margin-bottom: 0;
+}

@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.pagenator_color_dark {
+    color: #202123;
+}
+
 .pagenator__display {
     margin-right: 15px;
 }
@@ -15,6 +19,8 @@
 .pagenator__item {
     border-radius: 50%;
     margin-right: 5px;
+    transition: all .3s ease;
+    font-weight: bold;
 }
 
 .pagenator__link {
@@ -28,4 +34,8 @@
 
 .pagenator__item_active, .pagenator__item:hover {
     background-color: #353538;
+}
+
+.pagenator_color_dark .pagenator__list .pagenator__item_active, .pagenator_color_dark .pagenator__list .pagenator__item:hover {
+    color: #fff;
 }

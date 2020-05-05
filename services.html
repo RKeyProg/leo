@@ -12,27 +12,27 @@
 </head>
 
 <body>
-    <div class="wrapper main-page-wrapper">
-        <section class="hero">
+    <div class="wrapper">
+        <section class="top-line">
             <!-- HEADER -->
-            <header class="header">
+            <header class="header header_mb_small">
                 <div class="container">
-                    <nav class="menu">
-                        <a href="/" class="logo">
-                            <img src="img/logo.png" alt="logo" class="logo__img">
-                            <h5 class="h5 site-name">
-                                Lion Bank<span class="site-name_color_yellow">.</span>
-                            </h5>
-                        </a>
-                        <ul class="menu__list">
-                            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                    <a href="/" class="logo">
+                        <img src="img/logo.png" alt="logo" class="logo__img">
+                        <h4 class="h4 logo__title">
+                            Lion Bank<span class="logo__title_color_yellow">.</span>
+                        </h4>
+                    </a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                            <li class="nav__item nav__item_active"><a href="services.html" class="nav__link">Услуги</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
                         </ul>
                     </nav>
                     <address class="contacts">
                         <a href="tel: +88007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__schedule-text">График работы</div>
+                        <div class="contacts__subscript contacts__subscript_cursor_pointer contacts__subscript_underline_add contacts__subscript_color_yellow">График работы</div>
                     </address>
                 </div>
             </header>
@@ -45,8 +45,7 @@
                     <nav class="breadcrumbs">
                         <ul class="breadcrumbs__list">
                             <li class="breadcrumbs__item">
-                                <a href="#" class="breadcrumbs__link">Главная</a>
-                                <div class="breadcrumbs__separatopr">/</div>
+                                <a href="index.html" class="breadcrumbs__link">Главная</a>
                             </li>
                             <li class="breadcrumbs__item breadcrumbs__item_active">
                                 <a href="#" class="breadcrumbs__link">Услуги</a>
@@ -60,7 +59,7 @@
 
         <!-- SERVICES -->
 
-        <section class="services">
+        <main class="services">
             <div class="container">
                 <ul class="services__list">
                     <li class="services__item">
@@ -68,9 +67,11 @@
                             <img src="/img/content/service/key.jpg" alt="the keys to the car" class="services__photo-img">
                         </div>
                         <article class="services__description">
-                            <h4 class="h4 services__title">Автокредит под 17% годовых на 1000 лет + страховка</h4>
-                            <p class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
-                            <a href="#" class="services__btn btn">Подробнее</a>
+                            <div class="services__text">
+                                <h3>Автокредит под 17% годовых на 1000 лет + страховка</h3>
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+                            </div>
+                            <a href="#" class="btn btn_bg_dark">Подробнее</a>
                         </article>
                     </li>
                     <li class="services__item">
@@ -78,13 +79,15 @@
                             <img src="/img/content/service/couple.jpg" alt="people in the apartment" class="services__photo-img">
                         </div>
                         <article class="services__description">
-                            <h4 class="h4 services__title">Ипотека под 9% годовых на 35 лет и душу впридачу</h4>
-                            <p class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
-                            <a href="#" class="services__btn btn">Подробнее</a>
+                            <div class="services__text">
+                                <h3>Ипотека под 9% годовых на 35 лет и душу впридачу</h3>
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
+                            </div>
+                            <a href="#" class="btn btn_bg_dark">Подробнее</a>
                         </article>
                     </li>
                 </ul>
-                <div class="pagenator">
+                <div class="pagenator pagenator_color_dark">
                     <div class="pagenator__display">Страница 1 из 7</div>
                     <ul class="pagenator__list">
                         <li class="pagenator__item pagenator__item_active"><a href="#" class="pagenator__link">1</a>
@@ -98,25 +101,45 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </main>
 
         <!-- /SERVICES -->
+
+        <section class="partners">
+            <div class="container">
+                <h2 class="partners__title">Партнеры</h2>
+                <ul class="partners__list">
+                    <li class="partners__item">
+                        <a href="#" class="partners__photo"><img src="img/icons/partners/yandex.png" alt="yandex" class="partners__photo-img"></a>
+                        <a href="#" class="partners__photo"><img src="img/icons/partners/rambler.png" alt="rambler" class="partners__photo-img"></a>
+                        <a href="#" class="partners__photo"><img src="img/icons/partners/tinkoff.png" alt="tinkoff" class="partners__photo-img"></a>
+                        <a href="#" class="partners__photo"><img src="img/icons/partners/sberbank.png" alt="sberbank" class="partners__photo-img"></a> 
+                    </li>
+                    <li class="partners__item">
+                        <a href="#" class="partners__photo"><img src="img/icons/partners/renessans.png" alt="renessans" class="partners__photo-img"></a>
+                        <a href="#" class="partners__photo"><img src="img/icons/partners/vtb.png" alt="vtb" class="partners__photo-img"></a>
+                        <a href="#" class="partners__photo"><img src="img/icons/partners/western.png" alt="western" class="partners__photo-img"></a>
+                        <a href="#" class="partners__photo"><img src="img/icons/partners/openbank.png" alt="openbank" class="partners__photo-img"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
         <!-- FOOTER -->
 
         <footer class="footer">
             <div class="container">
-                <nav class="menu">
-                    <a href="#" class="logo">
-                        <img src="img/logo.png" alt="logo" class="logo__img">
-                        <h5 class="h5 site-name">
-                            Lion Bank<span class="site-name_yellow">.</span>
-                        </h5>
-                    </a>
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link menu__link_active">Услуги</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                <a href="/" class="logo">
+                    <img src="img/logo.png" alt="logo" class="logo__img">
+                    <h4 class="h4 logo__title">
+                        Lion Bank<span class="logo__title_color_yellow">.</span>
+                    </h4>
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
                     </ul>
                 </nav>
                 <ul class="social">
@@ -126,7 +149,7 @@
                     <li class="social__item"><a href="#" class="social__link social__link-inst"></a></li>
                 </ul>
                 <address class="contacts">
-                    <p class="contacts__subscript">Бесплатный звонок по России</p>
+                    <div class="contacts__subscript contacts__subscript_size_small">Бесплатный звонок по России</div>
                     <a href="tel: +88007003030" class="contacts__phone">8 800 700 30 30</a>
                 </address>
             </div>

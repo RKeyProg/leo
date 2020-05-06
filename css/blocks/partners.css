@@ -19,3 +19,16 @@
 .partners__item:last-child {
     margin-bottom: 0;
 }
+
+.partners__photo {
+    position: relative;
+}
+
+.partners__photo-img {
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+.partners__photo-img:hover {
+    filter: none;
+}

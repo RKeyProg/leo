@@ -22,20 +22,13 @@
 
 .partners__item:nth-child(4n) .partners__photo {
     justify-content: flex-end;
-    min-width: auto;
-}
-
-.partners__item:nth-child(4n+1) .partners__photo {
-    justify-content: flex-start;
-    min-width: auto;
 }
 
 .partners__photo {
     display: flex;
-    min-width: 284px;
+    min-width: 248px;
     height: 100px;
     align-items: center;
-    justify-content: center;
 }
 
 .partners__photo-img {

@@ -2,7 +2,7 @@
     padding-bottom: 45px;
 }
 
-.footer_add_line:before {
+.footer:before {
     content: '';
     display: block;
     height: 1px;

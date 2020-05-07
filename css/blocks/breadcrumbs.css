@@ -23,3 +23,7 @@
 .breadcrumbs__link {
     text-decoration: underline;
 }
+
+.breadcrumbs__item_active .breadcrumbs__link {
+    text-decoration: none;
+}

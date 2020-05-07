@@ -1,9 +1,9 @@
 .header {
     padding: 25px 0;
-    margin-bottom: 160px;
+    margin-bottom: 30px;
 }
 
-.header .container {
+.header {
     display: flex;
     align-items: center;
 }

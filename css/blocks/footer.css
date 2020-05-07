@@ -1,12 +1,15 @@
 .footer {
-    padding: 45px 0;
+    padding-bottom: 45px;
 }
 
-.footer::before {
+.footer_add_line:before {
+    content: '';
+    display: block;
     height: 1px;
     width: 1140px;
     margin: 0 auto;
     background-color: #353538;
+    margin-bottom: 45px;
 }
 
 .footer .container {

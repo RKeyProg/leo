@@ -1,6 +1,6 @@
 .partners {
     background-color: #f4f5f5;
-    padding: 82px 0;
+    padding: 82px 0 47px;
 }
 
 .partners__title {
@@ -11,20 +11,23 @@
 
 .partners__list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: baseline;
-    align-content: space-between;
-    min-height: 236px;
+    flex-wrap: wrap;
 }
 
 .partners__item {
-    width: 25%;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
-.partners__item:nth-child(4n) {
-    text-align: end;
+.partners__item:nth-child(4n) .partners__photo {
+    justify-content: flex-end;
+}
+
+.partners__photo {
+    display: flex;
+    width: 250px;
+    height: 100px;
+    align-items: center;
 }
 
 .partners__photo-img {

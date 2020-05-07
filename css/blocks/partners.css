@@ -1,6 +1,6 @@
 .partners {
     background-color: #f4f5f5;
-    padding: 82px 0 115px;
+    padding: 82px 0;
 }
 
 .partners__title {
@@ -9,19 +9,22 @@
     margin-bottom: 62px;
 }
 
-.partners__item {
+.partners__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 80px;
+    align-items: baseline;
+    align-content: space-between;
+    min-height: 236px;
 }
 
-.partners__item:last-child {
-    margin-bottom: 0;
+.partners__item {
+    width: 25%;
+    margin-bottom: 20px;
 }
 
-.partners__photo {
-    position: relative;
+.partners__item:nth-child(4n) {
+    text-align: end;
 }
 
 .partners__photo-img {

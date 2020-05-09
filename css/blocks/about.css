@@ -1,17 +1,19 @@
 .about {
-    margin-bottom: 180px;
+    margin-bottom: 126px;
 }
 
 .about .container {
     position: relative;
+    display: flex;
 }
 
 .about__photo {
-    position: relative;
+    position: absolute;
     width: 488px;
     min-height: 500px;
     border-radius: 4px;
     overflow: hidden;
+    z-index: 0;
 }
 
 .about__photo-img {
@@ -21,13 +23,14 @@
 }
 
 .about__info {
+    position: relative;
     width: 780px;
-    position: absolute;
-    top: 107px;
-    right: 0;
+    margin-left: auto;
+    margin-top: 107px;
     padding: 68px 96px;
     background-color: #202123;
     border-radius: 4px;
+    z-index: 10;
 }
 
 .about__title {

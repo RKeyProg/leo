@@ -3,6 +3,10 @@
     padding: 43px 0 63px;
 }
 
+.services__container {
+    width: 1170px;
+}
+
 .services__list {
     margin-bottom: 60px;
 }
@@ -10,7 +14,7 @@
 .services__item {
     display: flex;
     justify-content: space-between;
-    padding: 57px 29px;
+    padding: 57px 43px;
     border-radius: 4px;
     transition: all .3s ease;
     margin-bottom: 23px;

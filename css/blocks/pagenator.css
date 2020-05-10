@@ -19,20 +19,20 @@
 .pagenator__item {
     border-radius: 50%;
     margin-right: 5px;
-    transition: all .3s ease;
     font-weight: bold;
 }
 
 .pagenator__link {
     width: 32px;
     height: 32px;
+    border-radius: 50%;
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.pagenator__item_active, .pagenator__item:hover {
+.pagenator__item_active, .pagenator__link:hover {
     background-color: #353538;
 }
 

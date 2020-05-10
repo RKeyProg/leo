@@ -1,11 +1,8 @@
 .header {
-    padding: 25px 0;
-    margin-bottom: 30px;
-}
-
-.header {
     display: flex;
     align-items: center;
+    padding: 25px 0;
+    margin-bottom: 30px;
 }
 
 .header_mb_small {

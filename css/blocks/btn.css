@@ -27,3 +27,7 @@
 .btn_bg_dark:hover {
     background-color: #dfb56d;
 }
+
+.btn_padding_big {
+    padding: 16px 58px;
+}

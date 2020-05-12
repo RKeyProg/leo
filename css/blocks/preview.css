@@ -1,0 +1,32 @@
+.preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: anim-on-up 1.1s forwards cubic-bezier(.56,.39,.35,1.26);
+}
+
+.preview__logo {
+    width: 140px;
+    max-height: 141px;
+    margin-bottom: 9px;
+}
+
+.preview__title {
+    margin-bottom: 52px;
+}
+
+@keyframes anim-on-up {
+    from {
+    }
+
+    45% {
+        opacity: 0;
+    }
+
+    to { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

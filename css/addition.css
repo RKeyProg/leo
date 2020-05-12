@@ -2,6 +2,10 @@
     background: url("../img/bg/lion-header.jpg") center top no-repeat, url("../img/bg/bottom-pic.png") right bottom 327px no-repeat;;
 }
 
+::selection {
+    background: #acacac;
+}
+
 a {
     display: inline-block;
     text-decoration: none;

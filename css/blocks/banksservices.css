@@ -1,0 +1,12 @@
+.banks-services {
+    width: 100%;
+    padding: 0 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 34px;
+}
+
+.banks-services .person-services__list {
+    width: 737px;
+}

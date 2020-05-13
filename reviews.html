@@ -79,14 +79,37 @@
                                     <a href="#" class="person__link">
                                         <h4 class="h4 person__name">Иван Петрович</h4>
                                     </a>
-                                    <ul class="person__services-list">
-                                        <li class="person__services-item">Карта базовая</li>
-                                        <li class="person__services-item">Ипотека на 10 лет</li>
+                                    <ul class="person-services__list">
+                                        <li class="person-services__item">Карта базовая</li>
+                                        <li class="person-services__item">Ипотека на 10 лет</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="peoples-reviews__text">
                                 <h3>Доволен работой банка.</h3>
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                                    использовали небезизвестный универсальный код речей.</p>
+                            </div>
+                            <div class="peoples-reviews__date">Ноябрь 2019</div>
+                        </li>
+                        <li class="peoples-reviews__item">
+                            <div class="person reviews__person">
+                                <div class="person__photo">
+                                    <img src="img/content/reviews/liza.jpg" alt="Liza" class="person__photo-img">
+                                </div>
+                                <div class="person__about">
+                                    <a href="#" class="person__link">
+                                        <h4 class="h4 person__name">Лиза Сидорова</h4>
+                                    </a>
+                                    <ul class="person-services__list">
+                                        <li class="person-services__item">Карта оптима</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="peoples-reviews__text">
+                                <h3>Хорошие условия.</h3>
                                 <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
                                     абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
                                     отточить навык публичных выступлений в домашних условиях. При создании генератора мы
@@ -103,8 +126,8 @@
                                     <a href="#" class="person__link">
                                         <h4 class="h4 person__name">Екатерина Жмых</h4>
                                     </a>
-                                    <ul class="person__services-list">
-                                        <li class="person__services-item">Ипотека на 10 лет</li>
+                                    <ul class="person-services__list">
+                                        <li class="person-services__item">Ипотека на 10 лет</li>
                                     </ul>
                                 </div>
                             </div>
@@ -122,37 +145,14 @@
                         <li class="peoples-reviews__item">
                             <div class="person reviews__person">
                                 <div class="person__photo">
-                                    <img src="img/content/reviews/liza.jpg" alt="Liza" class="person__photo-img">
-                                </div>
-                                <div class="person__about">
-                                    <a href="#" class="person__link">
-                                        <h4 class="h4 person__name">Лиза Сидорова</h4>
-                                    </a>
-                                    <ul class="person__services-list">
-                                        <li class="person__services-item">Карта оптима</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="peoples-reviews__text">
-                                <h3>Хорошие условия.</h3>
-                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
-                                    абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
-                                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы
-                                    использовали небезизвестный универсальный код речей.</p>
-                            </div>
-                            <div class="peoples-reviews__date">Ноябрь 2019</div>
-                        </li>
-                        <li class="peoples-reviews__item">
-                            <div class="person reviews__person">
-                                <div class="person__photo">
                                     <img src="img/content/reviews/guy.jpg" alt="Anton" class="person__photo-img">
                                 </div>
                                 <div class="person__about">
                                     <a href="#" class="person__link">
                                         <h4 class="h4 person__name">Антон Игоревич</h4>
                                     </a>
-                                    <ul class="person__services-list">
-                                        <li class="person__services-item">Автокредит на 5 лет</li>
+                                    <ul class="person-services__list">
+                                        <li class="person-services__item">Автокредит на 5 лет</li>
                                     </ul>
                                 </div>
                             </div>
@@ -187,30 +187,103 @@
 
         <!-- advertising -->
 
-        <section class="advertising">
+        <section class="onlinebank">
             <div class="container">
-                <div class="advertising__title">
+                <div class="onlinebank__title">
                     LionBank-Онлайн
                     Простой способ зайти в банк
                 </div>
-                <div class="advertising__photo">
-                    <img src="img/decor/phone-n-hand.png" alt="bamk online" class="advertising__photo-img">
+                <div class="onlinebank__photo">
+                    <img src="img/decor/phone-n-hand.png" alt="bamk online" class="onlinebank__photo-img">
                 </div>
             </div>
         </section>
 
         <!-- /advertising -->
 
-        <!-- review -->
+        <!-- formreview -->
 
-        <section class="inner-section">
+        <section class="inner-section inner-section_padding_more">
             <div class="container">
-                <h2 class="inner-section__title">Оставьте отзыв</h2>
-                <form action=""></form>
+                <h2 class="inner-section__title inner-section__title_mb_small">Оставьте отзыв</h2>
+                <form action="" autocomplete class="form-review">
+                    <input type="text" class="form-review__input" placeholder="Имя и фамилия">
+                    <input type="text" class="form-review__input" placeholder="Ссылка на профиль VK">
+                    <textarea name="" id="" cols="30" rows="7" placeholder="Напишите свой честный отзыв ;)" class="form-review__textarea"></textarea>
+                    <div class="banks-services">
+                        <div class="banks-services__text">Какими услугами банка пользуетесь?</div>
+                        <ul class="person-services__list">
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Карта базовая</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Ипотека на 10 лет</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Карта оптима</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Автокредит на 5 лет</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Никакими</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Ипотека на 20 лет</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Другое</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Страхование</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Кредитная карта</div>
+                                </label>
+                            </li>
+                            <li class="person-services__point">
+                                <label>
+                                    <input type="checkbox" class="person-services__radio">
+                                    <div class="person-services__item">Автокредит на 7 лет</div>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="forw-review__buttons">
+                        <button class="forw-review__button">Очистить</button>
+                        <button class="forw-review__button">Отправить</button>
+                    </div>
+                </form>
             </div>
         </section>
 
-        <!-- /review -->
+        <!-- /formreview -->
 
         <!-- FOOTER -->
 

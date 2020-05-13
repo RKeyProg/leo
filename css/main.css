@@ -23,9 +23,11 @@
 @import url('blocks/news.css');
 @import url('blocks/pagenator.css');
 @import url('blocks/about.css');
-@import url('blocks/advertising.css');
+@import url('blocks/onlinebank.css');
 @import url('blocks/innersection.css');
 @import url('blocks/partners.css');
+@import url('blocks/formreview.css');
+@import url('blocks/banksservices.css');
 @import url('blocks/footer.css');
 @import url('blocks/social.css');
 @import url('blocks/welcome.css');

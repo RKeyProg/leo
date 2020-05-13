@@ -1,28 +1,32 @@
-.advertising {
+.onlinebank {
     background-color: #e5c288;
 }
 
-.advertising .container {
+.onlinebank .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.advertising__title {
+.onlinebank__title {
     font-size: 48px;
     font-weight: bold;
     width: 440px;
     color: #202123;
+    line-height: 1.15em;
+    padding: 35px 0;
 }
 
-.advertising__photo {
-    width: 400px;
-    height: 350px;
+.onlinebank__photo {
+    width: 427px;
+    height: 360px;
     overflow: hidden;
+    margin-right: 101px;
 }
 
-.advertising__photo-img {
+.onlinebank__photo-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 0 13px;
 }

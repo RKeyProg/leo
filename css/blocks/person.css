@@ -35,7 +35,7 @@
     display: block;
 	position: absolute;
     left: 0;
-    top: 80%;
+    top: 83%;
 	width: 0;
 	height: 2px;
     background-color: #4d76a1;
@@ -45,7 +45,6 @@
 .person__name:hover:before {
 	width: calc(100% - 40px);
 }
-
 
 .person__about {
     flex: 1;
@@ -57,20 +56,40 @@
     object-fit: cover;
 }
 
-.person__services-list {
+.person-services__list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.person__services-item {
-    padding: 10px 18px;
+.person-services__item {
+    padding: 7px 20px;
     background-color: #c7e9d0;
     font-size: 13px;
     border-radius: 25px;
-    margin-right: 10px;
-    margin-top: 15px;
+    margin-right: 12px;
+    margin-top: 11px;
 }
 
-.person__services-item:nth-child(2n) {
+.person-services__item:nth-child(2n) {
     margin-right: 0;
+}
+
+.person-services__point {
+    margin-right: 10px;
+}
+
+.person-services__point .person-services__item{
+    background-color: #e6e6e6;
+}
+
+.person-services__point .person-services__item:hover {
+    cursor: pointer;
+}
+
+.person-services__radio:checked ~ .person-services__item {
+    background-color: #c7e9d0;
+}
+
+.person-services__radio {
+    display: none;
 }

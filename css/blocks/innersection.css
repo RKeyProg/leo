@@ -8,3 +8,11 @@
     color: #202123;
     margin-bottom: 62px;
 }
+
+.inner-section_padding_more {
+    padding: 102px 0 110px;
+}
+
+.inner-section__title_mb_small {
+    margin-bottom: 42px;
+}

@@ -1,0 +1,28 @@
+.advertising {
+    background-color: #e5c288;
+}
+
+.advertising .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advertising__title {
+    font-size: 48px;
+    font-weight: bold;
+    width: 440px;
+    color: #202123;
+}
+
+.advertising__photo {
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.advertising__photo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -14,12 +14,16 @@
 @import url('blocks/breadcrumbs.css');
 @import url('blocks/slogan.css');
 @import url('blocks/services.css');
+@import url('blocks/reviews.css');
+@import url('blocks/peoplesreviews.css');
+@import url('blocks/person.css');
 @import url('blocks/btn.css');
 @import url('blocks/section.css');
 @import url('blocks/cards.css');
 @import url('blocks/news.css');
 @import url('blocks/pagenator.css');
 @import url('blocks/about.css');
+@import url('blocks/advertising.css');
 @import url('blocks/innersection.css');
 @import url('blocks/partners.css');
 @import url('blocks/footer.css');

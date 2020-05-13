@@ -8,8 +8,8 @@
 
 .form-review__input, .form-review__textarea {
     outline: none;
-    border: 0;
-    padding: 19px 28px;
+    border: 2px solid #fff;
+    padding: 15px 24px;
     border-radius: 4px;
 }
 
@@ -22,7 +22,11 @@
     width: 100%;
     resize: none;
     margin-bottom: 15px;
-    padding: 25px 28px;
+    padding: 21px 24px;
+}
+
+.form-review__input:focus,.form-review__textarea:focus {
+    background-color: #f4f5f5;
 }
 
 .forw-review__buttons {

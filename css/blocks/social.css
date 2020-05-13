@@ -15,38 +15,71 @@
     display: block;
     width: 36px;
     height: 36px;
+    position: relative;
 }
 
-.social__link-telegram {
-    background: url(../../img/icons/socials/telegram.png);
+.social__link:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background: url(../../img/icons/socials/css_sprites.png);
+    opacity: 1;
+    transition: opacity .3s;
 }
 
-.social__link-telegram:hover {
-    background: url(../../img/icons/socials/telegram-hover.png);
+.social__link:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background: url(../../img/icons/socials/css_sprites.png);
+    opacity: 0;
+    transition: opacity .3s;
 }
 
-
-.social__link-vk {
-    background: url(../../img/icons/socials/vk.png);
+.social__link:hover::after {
+    opacity: 0;
 }
 
-.social__link-vk:hover {
-    background: url(../../img/icons/socials/vk-hover.png);
+.social__link:hover:before {
+    opacity: 1;
 }
 
-
-.social__link-face {
-    background: url(../../img/icons/socials/facebook.png);
+.social__link-telegram:after {
+    background-position: -122px -10px;
 }
 
-.social__link-face:hover {
-    background: url(../../img/icons/socials/facebook-hover.png);
+.social__link-telegram:before {
+    background-position: -122px -66px;
 }
 
-.social__link-inst {
-    background: url(../../img/icons/socials/instagram.png);
+.social__link-vk:after {
+    background-position: -66px -122px;
 }
 
-.social__link-inst:hover {
-    background: url(../../img/icons/socials/instagram-hover.png);
+.social__link-vk:before {
+    background-position: -10px -122px;
+}
+
+.social__link-face:after {
+    background-position: -66px -10px;
+}
+
+.social__link-face:before {
+    background-position: -10px -10px;
+}
+
+.social__link-inst:after {
+    background-position: -66px -66px;
+}
+
+.social__link-inst:before {
+    background-position: -10px -66px;
 }

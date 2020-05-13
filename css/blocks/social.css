@@ -16,6 +16,7 @@
     width: 36px;
     height: 36px;
     position: relative;
+    border-radius: 50%;
 }
 
 .social__link:after {
@@ -29,6 +30,7 @@
     background: url(../../img/icons/socials/css_sprites.png);
     opacity: 1;
     transition: opacity .3s;
+    border-radius: 50%;
 }
 
 .social__link:before {
@@ -42,6 +44,7 @@
     background: url(../../img/icons/socials/css_sprites.png);
     opacity: 0;
     transition: opacity .3s;
+    border-radius: 50%;
 }
 
 .social__link:hover::after {

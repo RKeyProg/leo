@@ -38,7 +38,7 @@
 
 .contacts__drop {
     position: absolute;
-    right: -1000px;
+    right: 9999px;
     top: 100%;
     min-width: 160px;
     background-color: #fff;

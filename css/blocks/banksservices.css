@@ -1,14 +1,19 @@
 .banks-services {
     width: 100%;
-    padding: 0 28px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 34px;
 }
 
+.banks-services__text {
+    flex-shrink: 0;
+    margin-right: 18px;
+    padding-left: 28px;
+}
+
 .banks-services__list {
-    width: 744px;
+    flex: 1;
 }
 
 .banks-services__item .tag__item{

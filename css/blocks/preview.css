@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: translateY(100%);
     opacity: 0;
-    animation: anim-on-up 1.1s forwards cubic-bezier(.56,.39,.35,1.26);
+    animation: anim-on-up 1.1s forwards cubic-bezier(1,.39,.61,.65);
 }
 
 .preview__logo {
@@ -18,15 +17,27 @@
 }
 
 @keyframes anim-on-up {
-    from {
-    }
-
-    45% {
-        opacity: 0;
-    }
-
-    to { 
+    0% {
         transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-30px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    65% { 
+        transform: translateY(-15px);
+    }
+
+    75% {
+        transform: translateY(0);
+    }
+
+    100% {
         opacity: 1;
     }
 }

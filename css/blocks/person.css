@@ -12,17 +12,19 @@
     margin-right: 20px;
 }
 
+.person__link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .person__link:hover {
     color: #4d76a1;
 }
 
-.person__name {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-}
-
-.person__name::after {
+.person__link::after {
     content: '';
     margin-left: 10px;
     width: 30px;
@@ -30,7 +32,7 @@
     background: url('../../img/icons/socials/vk-colored.png') center center / cover no-repeat;
 }
 
-.person__name::before {
+.person__link::before {
     content: '';
     display: block;
 	position: absolute;
@@ -42,7 +44,7 @@
     transition: .3s ease;
 }
 
-.person__name:hover:before {
+.person__link:hover:before {
 	width: calc(100% - 40px);
 }
 

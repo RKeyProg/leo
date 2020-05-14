@@ -4,14 +4,6 @@
     align-items: center;
 }
 
-.person__photo {
-    width: 139px;
-    height: 139px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
 .person__link {
     position: relative;
     display: inline-flex;

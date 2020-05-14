@@ -3,7 +3,8 @@
 @import url('layout/base.css');
 @import url('addition.css');
 
-
+@import url('blocks/welcome.css');
+@import url('blocks/preview.css');
 @import url('blocks/hero.css');
 @import url('blocks/topline.css');
 @import url('blocks/header.css');
@@ -31,5 +32,3 @@
 @import url('blocks/banksservices.css');
 @import url('blocks/footer.css');
 @import url('blocks/social.css');
-@import url('blocks/welcome.css');
-@import url('blocks/preview.css');

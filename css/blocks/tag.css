@@ -1,0 +1,17 @@
+.tag__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag__item {
+    padding: 7px 20px;
+    background-color: #c7e9d0;
+    font-size: 13px;
+    border-radius: 25px;
+    margin-right: 12px;
+    margin-top: 11px;
+}
+
+.tag-item:nth-child(2n) {
+    margin-right: 0;
+}

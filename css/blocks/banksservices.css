@@ -7,6 +7,22 @@
     margin-bottom: 34px;
 }
 
-.banks-services .person-services__list {
-    width: 737px;
+.banks-services__list {
+    width: 744px;
+}
+
+.banks-services__item .tag__item{
+    background-color: #e6e6e6;
+}
+
+.banks-services__item .tag__item:hover {
+    cursor: pointer;
+}
+
+.banks-services__radio:checked ~ .tag__item {
+    background-color: #c7e9d0;
+}
+
+.banks-services__radio {
+    display: none;
 }

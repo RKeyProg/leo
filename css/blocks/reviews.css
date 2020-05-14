@@ -4,5 +4,48 @@
 }
 
 .reviews__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 22px;
+}
+
+.reviews__username {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.reviews__username:hover {
+    color: #4d76a1;
+}
+
+.reviews__username::after {
+    content: '';
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background: url('../../img/icons/socials/vk-colored.png') center center / cover no-repeat;
+}
+
+.reviews__username::before {
+    content: '';
+    display: block;
+	position: absolute;
+    left: 0;
+    top: 83%;
+	width: 0;
+	height: 2px;
+    background-color: #4d76a1;
+    transition: .3s ease;
+}
+
+.reviews__username:hover:before {
+	width: calc(100% - 40px);
+}
+
+.reviews__userdata {
+    flex: 1;
 }

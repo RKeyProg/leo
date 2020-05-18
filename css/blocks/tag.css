@@ -4,6 +4,7 @@
 }
 
 .tag__item {
+    display: inline-block;
     padding: 7px 20px;
     background-color: #c7e9d0;
     font-size: 13px;
